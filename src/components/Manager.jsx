@@ -12,9 +12,11 @@ const Manager = () => {
     const [passwordArray, setPasswordArray] = useState([])
 
     useEffect(() => {
-        let passwords = localStorage.getItem("passwords");
+         let passwords = localStorage.getItem("passwords");
+        // let passwords = localStorage.passwords;
         if (passwords) {
             setPasswordArray(JSON.parse(passwords))
+            // console.log({passwordArray})
         }
     }, [])
 
