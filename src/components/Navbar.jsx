@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Navbar = () => {
-    // const githubAcc=()=>{
-    //       <a href="https://github.com/MA1ya1nk/password-manager"></a>
-    // }
 
     return (
         <nav className='bg-slate-800 text-white '>
